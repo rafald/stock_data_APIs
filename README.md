@@ -28,7 +28,7 @@ import fix_yahoo_finance as yf
 yf.pdr_override()
 
 df = yf.download('MSFT','2018-01-01','2020-07-31')
-df.head()
+df
 ```
 
 
