@@ -1,5 +1,3 @@
-<img src="Title.PNG">
-
 # Stock data APIs in Python
 
 ## Prerequistes
