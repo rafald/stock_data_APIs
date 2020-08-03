@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("once")
 
-import fix_yahoo_finance as yf
+import yfinance as yf
 yf.pdr_override()
 
 df = yf.download('MSFT','2020-01-01','2020-07-31')
